@@ -11,7 +11,7 @@ class Search extends Component {
   }
 
   handleSearch = (searchTerm) => {
-    fetch(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${process.env.REACT_APP_FLICKR_API_KEY}&text=${searchTerm}&per_page=25&page=1&format=json&nojsoncallback=1&api`)
+    fetch(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=1dd17dde0fed7286935d83875fcc17dd&text=${searchTerm}&per_page=25&page=1&format=json&nojsoncallback=1&api`)
       .then(res => {
         res.json()
         .then(data => {
