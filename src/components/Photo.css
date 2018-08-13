@@ -1,0 +1,8 @@
+
+.photo-list {
+  margin-top: 10px;
+}
+
+.photo-list:hover {
+  background-color: gray;
+}
